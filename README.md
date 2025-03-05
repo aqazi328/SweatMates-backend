@@ -57,6 +57,8 @@ docker-compose exec backend flask db upgrade
 
 Your backend should now be running at `http://localhost:5000`.
 
+Test endpoints using Postman, Insomnia, etc.
+
 ## Updating the Application
 
 Whenever changes are made, follow these steps:
@@ -79,3 +81,5 @@ Whenever changes are made, follow these steps:
 ### 2. Workouts
 
 - **POST /addworkout** (Requires JWT) - Add a new workout with details
+
+**NOTE:** UI (ReactJS) is still in development and will come in future iterations.
